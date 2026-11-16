@@ -1,0 +1,877 @@
+{
+ "cfg": {
+  "name": "Health Gardens",
+  "sub": "Nariño · Colombia",
+  "heroTitle": "Aventuras que <em>regeneran</em> el territorio",
+  "heroText": "Expediciones científicas, senderos medicinales y bienestar en la naturaleza entre Chachagüí y el Lago Guamuéz. Cada visita financia conservación y restauración en Nariño.",
+  "whatsapp": "573043758739",
+  "logoId": "img/logos/health-gardens.webp"
+ },
+ "adventures": [
+  {
+   "id": "a1",
+   "order": 1,
+   "title": "Expedición Vitalia: páramo de frailejones",
+   "node": "Lago Guamuéz",
+   "duration": "1 día",
+   "price": "Consultar",
+   "scene": "paramo",
+   "desc": "Expedición científica guiada por los frailejonales altoandinos y los invernaderos de conservación.",
+   "photos": [
+    "img/fotos/guamuez-bosque.webp",
+    "img/fotos/cardo-mariano.webp",
+    "img/fotos/guamuez-aerea.webp"
+   ]
+  },
+  {
+   "id": "a2",
+   "order": 2,
+   "title": "Aqua Yoga en plataformas flotantes",
+   "node": "Lago Guamuéz",
+   "duration": "2 h",
+   "price": "Consultar",
+   "scene": "lago",
+   "desc": "Respiración consciente y yoga sobre el agua del lago, con acompañamiento de bienestar no clínico.",
+   "photos": [
+    "img/fotos/aquayoga.webp",
+    "img/fotos/lago-panorama.webp"
+   ]
+  },
+  {
+   "id": "a3",
+   "order": 3,
+   "title": "Paseo de los Botánicos",
+   "node": "Lago Guamuéz",
+   "duration": "3 h",
+   "price": "Consultar",
+   "scene": "bosque",
+   "desc": "Sendero interpretativo con especies medicinales y ciencia ciudadana.",
+   "photos": [
+    "img/fotos/flor-amarilla.webp",
+    "img/fotos/siembra.webp",
+    "img/fotos/plantulas.webp"
+   ]
+  },
+  {
+   "id": "a4",
+   "order": 4,
+   "title": "Green Sound: la música de las plantas",
+   "node": "Chachagüí",
+   "duration": "1 h 30 min",
+   "price": "Consultar",
+   "scene": "jardin",
+   "desc": "Un dispositivo traduce las señales de las plantas en sonido. Escucha el jardín.",
+   "photos": [
+    "img/fotos/invernadero.webp",
+    "img/fotos/invernadero-3.webp"
+   ]
+  },
+  {
+   "id": "a5",
+   "order": 5,
+   "title": "Culti Bar Té y Casa de los Aromas",
+   "node": "Chachagüí",
+   "duration": "2 h",
+   "price": "Consultar",
+   "scene": "jardin",
+   "desc": "Destilación demostrativa, aromaterapia y cata de infusiones de plantas cultivadas.",
+   "photos": [
+    "img/fotos/aromas.webp",
+    "img/fotos/invernadero-2.webp"
+   ]
+  },
+  {
+   "id": "a6",
+   "order": 6,
+   "title": "Museo‑Laboratorio Plantae",
+   "node": "Chachagüí",
+   "duration": "2 h 30 min",
+   "price": "Consultar",
+   "scene": "bosque",
+   "desc": "Recorrido por el museo y los senderos históricos y medicinales.",
+   "photos": [
+    "img/fotos/laboratorio.webp",
+    "img/fotos/equipo.webp"
+   ]
+  }
+ ],
+ "allies": [
+  {
+   "id": "l1",
+   "order": 1,
+   "name": "ONUDI",
+   "logoId": "img/logos/onudi.webp"
+  },
+  {
+   "id": "l2",
+   "order": 2,
+   "name": "UN Tourism",
+   "logoId": "img/logos/un-tourism.webp"
+  },
+  {
+   "id": "l3",
+   "order": 3,
+   "name": "Corponariño",
+   "logoId": "img/logos/corponarino.webp"
+  },
+  {
+   "id": "l4",
+   "order": 4,
+   "name": "Universidad de Nariño",
+   "logoId": "img/logos/udenar.webp"
+  },
+  {
+   "id": "l5",
+   "order": 5,
+   "name": "Universidad CESMAG",
+   "logoId": "img/logos/ucesmag.webp"
+  },
+  {
+   "id": "l6",
+   "order": 6,
+   "name": "Cumbres Blancas",
+   "logoId": "img/logos/cumbres-blancas.webp"
+  },
+  {
+   "id": "l7",
+   "order": 7,
+   "name": "Colombia Destinos de Paz",
+   "logoId": "img/logos/destinos-de-paz.webp"
+  },
+  {
+   "id": "l8",
+   "order": 8,
+   "name": "Market Land",
+   "logoId": "img/logos/market-land.webp"
+  }
+ ],
+ "products": [
+  {
+   "id": "crema-cera-abejas",
+   "name": "Crema de cera de abejas",
+   "cat": "Cuidado de la piel",
+   "desc": "Cera de abejas y aceite de caléndula prensado en frío de flor fresca. Hidrata, refresca y ayuda a renovar la piel.",
+   "img": "img/p/crema-cera-abejas.webp",
+   "variants": [
+    {
+     "label": "80 g",
+     "price": 50000
+    }
+   ],
+   "waOnly": false,
+   "quote": false,
+   "soldOut": false,
+   "order": 1
+  },
+  {
+   "id": "aceite-calendula-50",
+   "name": "Aceite de caléndula",
+   "cat": "Cuidado de la piel",
+   "desc": "100% puro, extraído en frío, sin parabenos ni aditivos. Reconstructor facial y corporal.",
+   "img": "img/p/aceite-calendula-50.webp",
+   "variants": [
+    {
+     "label": "50 ml",
+     "price": 70000
+    }
+   ],
+   "waOnly": false,
+   "quote": false,
+   "soldOut": false,
+   "order": 2
+  },
+  {
+   "id": "kit-reparador",
+   "name": "Kit reparador",
+   "cat": "Cuidado de la piel",
+   "desc": "Tratamiento integral para la piel del rostro y del cuerpo: manchas, acné y cuidado especializado. Kit de 3 productos.",
+   "img": "img/p/kit-reparador.webp",
+   "variants": [
+    {
+     "label": "Kit x 3",
+     "price": 170000
+    }
+   ],
+   "waOnly": false,
+   "quote": false,
+   "soldOut": false,
+   "order": 3
+  },
+  {
+   "id": "aceite-cbd",
+   "name": "Aceite de cannabis CBD 1:2",
+   "cat": "Cannabis medicinal",
+   "desc": "Aceite full espectro con predominio de CBD. Se entrega con asesoría de fitoterapia.",
+   "img": "img/p/aceite-cbd.webp",
+   "variants": [
+    {
+     "label": "15 ml",
+     "price": 90000
+    }
+   ],
+   "waOnly": true,
+   "quote": false,
+   "soldOut": false,
+   "order": 4
+  },
+  {
+   "id": "aceite-thc",
+   "name": "Aceite de cannabis THC 2:1",
+   "cat": "Cannabis medicinal",
+   "desc": "Aceite con predominio de THC. Se entrega solo con asesoría de fitoterapia.",
+   "img": "img/p/aceite-thc.webp",
+   "variants": [
+    {
+     "label": "15 ml",
+     "price": 90000
+    }
+   ],
+   "waOnly": true,
+   "quote": false,
+   "soldOut": false,
+   "order": 5
+  },
+  {
+   "id": "crema-cannabis",
+   "name": "Crema de cannabis",
+   "cat": "Cannabis medicinal",
+   "desc": "Aceite de cannabis, aceite esencial de lavanda y cera de abejas. Para masajear zonas con dolor; calmante y relajante.",
+   "img": "img/p/crema-cannabis.webp",
+   "variants": [
+    {
+     "label": "20 g",
+     "price": 30000
+    }
+   ],
+   "waOnly": true,
+   "quote": false,
+   "soldOut": false,
+   "order": 6
+  },
+  {
+   "id": "trat-dolor-cronico",
+   "name": "Kit para el dolor crónico",
+   "cat": "Tratamientos",
+   "desc": "Tintura corporal de plantas analgésicas 50 ml, pomada de cannabis 20 g, aceite CBD 15 ml y aceite de caléndula. Incluye semillas y asesoría.",
+   "img": "img/p/trat-dolor-cronico.webp",
+   "variants": [
+    {
+     "label": "Kit",
+     "price": 200000
+    }
+   ],
+   "waOnly": true,
+   "quote": false,
+   "soldOut": false,
+   "order": 7
+  },
+  {
+   "id": "trat-detox",
+   "name": "Tratamiento Detox‑Relax‑Brain",
+   "cat": "Tratamientos",
+   "desc": "Pasiflora, cardo mariano e hipérico (100 cápsulas c/u), aceite esencial 5 ml y aceite CBD 15 ml. Incluye plan de alimentación y semillas.",
+   "img": "img/p/trat-detox.webp",
+   "variants": [
+    {
+     "label": "Kit",
+     "price": 160000
+    }
+   ],
+   "waOnly": true,
+   "quote": false,
+   "soldOut": false,
+   "order": 8
+  },
+  {
+   "id": "trat-hiperico-cbd",
+   "name": "Tratamiento Hipérico + CBD",
+   "cat": "Tratamientos",
+   "desc": "Hipérico (hierba de San Juan) 100 cápsulas, aceite CBD 15 ml y mezcla de aceites esenciales. Incluye semillas y asesoría.",
+   "img": "img/p/trat-depresion.webp",
+   "variants": [
+    {
+     "label": "Kit",
+     "price": 150000
+    }
+   ],
+   "waOnly": true,
+   "quote": false,
+   "soldOut": false,
+   "order": 9
+  },
+  {
+   "id": "cardo-mariano",
+   "name": "Cardo mariano",
+   "cat": "Encapsulados",
+   "desc": "Cápsulas de gel natural. Tradicionalmente usado para apoyar la función del hígado.",
+   "img": "img/p/cardo-mariano.webp",
+   "variants": [
+    {
+     "label": "100 cápsulas",
+     "price": 60000
+    }
+   ],
+   "waOnly": false,
+   "quote": false,
+   "soldOut": false,
+   "order": 10
+  },
+  {
+   "id": "equinacea",
+   "name": "Equinácea",
+   "cat": "Encapsulados",
+   "desc": "Cápsulas de gel natural. Tradicionalmente usada como apoyo al sistema inmune.",
+   "img": "img/p/equinacea.webp",
+   "variants": [
+    {
+     "label": "100 cápsulas",
+     "price": 65000
+    }
+   ],
+   "waOnly": false,
+   "quote": false,
+   "soldOut": false,
+   "order": 11
+  },
+  {
+   "id": "estevia",
+   "name": "Estevia",
+   "cat": "Encapsulados",
+   "desc": "Cápsulas de gel natural de Stevia rebaudiana, endulzante de origen vegetal.",
+   "img": "img/p/estevia.webp",
+   "variants": [
+    {
+     "label": "100 cápsulas",
+     "price": 60000
+    }
+   ],
+   "waOnly": false,
+   "quote": false,
+   "soldOut": false,
+   "order": 12
+  },
+  {
+   "id": "hiperico",
+   "name": "Hipérico",
+   "cat": "Encapsulados",
+   "desc": "Hierba de San Juan en cápsulas. Consulta antes de usarlo: interactúa con varios medicamentos.",
+   "img": "img/p/hiperico.webp",
+   "variants": [
+    {
+     "label": "100 cápsulas",
+     "price": 65000
+    }
+   ],
+   "waOnly": false,
+   "quote": false,
+   "soldOut": false,
+   "order": 13
+  },
+  {
+   "id": "pasiflora",
+   "name": "Pasiflora",
+   "cat": "Encapsulados",
+   "desc": "Cápsulas de gel natural. Tradicionalmente usada para la relajación y el descanso.",
+   "img": "img/p/pasiflora.webp",
+   "variants": [
+    {
+     "label": "100 cápsulas",
+     "price": 65000
+    }
+   ],
+   "waOnly": false,
+   "quote": false,
+   "soldOut": false,
+   "order": 14
+  },
+  {
+   "id": "polvo-kilos",
+   "name": "Plantas medicinales en polvo",
+   "cat": "Encapsulados",
+   "desc": "Presentación por kilos para negocios y emprendimientos verdes.",
+   "img": "img/p/polvo-kilos.webp",
+   "variants": [
+    {
+     "label": "Por kilo",
+     "price": 0
+    }
+   ],
+   "waOnly": false,
+   "quote": true,
+   "soldOut": false,
+   "order": 15
+  },
+  {
+   "id": "ae-lavanda",
+   "name": "Aceite esencial de lavanda",
+   "cat": "Aceites esenciales",
+   "desc": "Aceite 100% puro, hidrodestilado por arrastre de vapor. Te asesoramos en su uso en aromaterapia.",
+   "img": "img/p/aceite-esencial.webp",
+   "variants": [
+    {
+     "label": "5 ml",
+     "price": 40000
+    },
+    {
+     "label": "100 ml",
+     "price": 180000
+    },
+    {
+     "label": "500 ml",
+     "price": 380000
+    },
+    {
+     "label": "1.000 ml",
+     "price": 650000
+    }
+   ],
+   "waOnly": false,
+   "quote": false,
+   "soldOut": false,
+   "order": 16
+  },
+  {
+   "id": "ae-citronela",
+   "name": "Aceite esencial de citronela",
+   "cat": "Aceites esenciales",
+   "desc": "Aceite 100% puro, hidrodestilado por arrastre de vapor. Te asesoramos en su uso en aromaterapia.",
+   "img": "img/p/aceite-esencial.webp",
+   "variants": [
+    {
+     "label": "5 ml",
+     "price": 40000
+    },
+    {
+     "label": "100 ml",
+     "price": 160000
+    },
+    {
+     "label": "500 ml",
+     "price": 290000
+    },
+    {
+     "label": "1.000 ml",
+     "price": 480000
+    }
+   ],
+   "waOnly": false,
+   "quote": false,
+   "soldOut": false,
+   "order": 17
+  },
+  {
+   "id": "ae-limon",
+   "name": "Aceite esencial de limón",
+   "cat": "Aceites esenciales",
+   "desc": "Aceite 100% puro, hidrodestilado por arrastre de vapor. Te asesoramos en su uso en aromaterapia.",
+   "img": "img/p/aceite-esencial.webp",
+   "variants": [
+    {
+     "label": "5 ml",
+     "price": 40000
+    },
+    {
+     "label": "100 ml",
+     "price": 190000
+    },
+    {
+     "label": "500 ml",
+     "price": 640000
+    },
+    {
+     "label": "1.000 ml",
+     "price": 1200000
+    }
+   ],
+   "waOnly": false,
+   "quote": false,
+   "soldOut": false,
+   "order": 18
+  },
+  {
+   "id": "ae-eucalipto",
+   "name": "Aceite esencial de eucalipto",
+   "cat": "Aceites esenciales",
+   "desc": "Aceite 100% puro, hidrodestilado por arrastre de vapor. Te asesoramos en su uso en aromaterapia.",
+   "img": "img/p/aceite-esencial.webp",
+   "variants": [
+    {
+     "label": "5 ml",
+     "price": 40000
+    },
+    {
+     "label": "100 ml",
+     "price": 150000
+    },
+    {
+     "label": "500 ml",
+     "price": 280000
+    },
+    {
+     "label": "1.000 ml",
+     "price": 480000
+    }
+   ],
+   "waOnly": false,
+   "quote": false,
+   "soldOut": false,
+   "order": 19
+  },
+  {
+   "id": "ae-romero",
+   "name": "Aceite esencial de romero",
+   "cat": "Aceites esenciales",
+   "desc": "Aceite 100% puro, hidrodestilado por arrastre de vapor. Te asesoramos en su uso en aromaterapia.",
+   "img": "img/p/aceite-esencial.webp",
+   "variants": [
+    {
+     "label": "5 ml",
+     "price": 40000
+    },
+    {
+     "label": "100 ml",
+     "price": 150000
+    },
+    {
+     "label": "500 ml",
+     "price": 280000
+    },
+    {
+     "label": "1.000 ml",
+     "price": 480000
+    }
+   ],
+   "waOnly": false,
+   "quote": false,
+   "soldOut": false,
+   "order": 20
+  },
+  {
+   "id": "ae-menta",
+   "name": "Aceite esencial de menta",
+   "cat": "Aceites esenciales",
+   "desc": "Aceite 100% puro, hidrodestilado por arrastre de vapor. Te asesoramos en su uso en aromaterapia.",
+   "img": "img/p/aceite-esencial.webp",
+   "variants": [
+    {
+     "label": "5 ml",
+     "price": 40000
+    },
+    {
+     "label": "100 ml",
+     "price": 140000
+    },
+    {
+     "label": "500 ml",
+     "price": 310000
+    },
+    {
+     "label": "1.000 ml",
+     "price": 520000
+    }
+   ],
+   "waOnly": false,
+   "quote": false,
+   "soldOut": false,
+   "order": 21
+  },
+  {
+   "id": "av-calendula",
+   "name": "Aceite vegetal de caléndula",
+   "cat": "Aceites vegetales",
+   "desc": "100% puro. Flor orgánica prensada en frío.",
+   "img": "img/p/av-calendula.webp",
+   "variants": [
+    {
+     "label": "500 ml",
+     "price": 160000
+    },
+    {
+     "label": "1.000 ml",
+     "price": 220000
+    }
+   ],
+   "waOnly": false,
+   "quote": false,
+   "soldOut": false,
+   "order": 22
+  },
+  {
+   "id": "av-almendras",
+   "name": "Aceite de almendras",
+   "cat": "Aceites vegetales",
+   "desc": "100% puro. Semilla del fruto prensada en frío.",
+   "img": "img/p/av-almendras.webp",
+   "variants": [
+    {
+     "label": "500 ml",
+     "price": 150000
+    },
+    {
+     "label": "1.000 ml",
+     "price": 220000
+    }
+   ],
+   "waOnly": false,
+   "quote": false,
+   "soldOut": false,
+   "order": 23
+  },
+  {
+   "id": "av-uva",
+   "name": "Aceite de pepita de uva",
+   "cat": "Aceites vegetales",
+   "desc": "100% puro. Semilla prensada en frío.",
+   "img": "img/p/av-uva.webp",
+   "variants": [
+    {
+     "label": "500 ml",
+     "price": 190000
+    },
+    {
+     "label": "1.000 ml",
+     "price": 240000
+    }
+   ],
+   "waOnly": false,
+   "quote": false,
+   "soldOut": false,
+   "order": 24
+  },
+  {
+   "id": "av-cannabis",
+   "name": "Aceite de semillas de cannabis",
+   "cat": "Aceites vegetales",
+   "desc": "100% puro de semillas de Cannabis sativa, para uso cosmético.",
+   "img": "img/p/av-cannabis.webp",
+   "variants": [
+    {
+     "label": "500 ml",
+     "price": 200000
+    },
+    {
+     "label": "1.000 ml",
+     "price": 320000
+    }
+   ],
+   "waOnly": false,
+   "quote": false,
+   "soldOut": false,
+   "order": 25
+  },
+  {
+   "id": "av-aguacate",
+   "name": "Aceite de aguacate",
+   "cat": "Aceites vegetales",
+   "desc": "100% puro, amasado y centrifugado. Pulpa orgánica.",
+   "img": "img/p/av-aguacate.webp",
+   "variants": [
+    {
+     "label": "500 ml",
+     "price": 160000
+    },
+    {
+     "label": "1.000 ml",
+     "price": 220000
+    }
+   ],
+   "waOnly": false,
+   "quote": false,
+   "soldOut": false,
+   "order": 26
+  },
+  {
+   "id": "av-coco",
+   "name": "Aceite de coco fraccionado",
+   "cat": "Aceites vegetales",
+   "desc": "100% puro, prensado en frío. Ligero y de rápida absorción.",
+   "img": "img/p/av-coco.webp",
+   "variants": [
+    {
+     "label": "500 ml",
+     "price": 180000
+    },
+    {
+     "label": "1.000 ml",
+     "price": 280000
+    }
+   ],
+   "waOnly": false,
+   "quote": false,
+   "soldOut": false,
+   "order": 27
+  },
+  {
+   "id": "masaje-reductor",
+   "name": "Aceite para masaje reductor",
+   "cat": "Aceites para masaje",
+   "desc": "Base vegetal neutra con aceites esenciales de menta, eucalipto y lavanda.",
+   "img": "img/p/masaje-reductor.webp",
+   "variants": [
+    {
+     "label": "500 ml",
+     "price": 200000
+    },
+    {
+     "label": "1.000 ml",
+     "price": 310000
+    }
+   ],
+   "waOnly": false,
+   "quote": false,
+   "soldOut": false,
+   "order": 28
+  },
+  {
+   "id": "masaje-deportivo",
+   "name": "Aceite para masaje deportivo",
+   "cat": "Aceites para masaje",
+   "desc": "Ayuda a eliminar la fatiga después del deporte. Base neutra con lavanda, bergamota, ylang ylang y geranio.",
+   "img": "img/p/masaje-deportivo.webp",
+   "variants": [
+    {
+     "label": "500 ml",
+     "price": 220000
+    },
+    {
+     "label": "1.000 ml",
+     "price": 300000
+    }
+   ],
+   "waOnly": false,
+   "quote": false,
+   "soldOut": false,
+   "order": 29
+  },
+  {
+   "id": "masaje-relajante",
+   "name": "Aceite para masaje relajante",
+   "cat": "Aceites para masaje",
+   "desc": "Hidrata y nutre la piel. Base neutra con lavanda, bergamota e ylang ylang.",
+   "img": "img/p/masaje-relajante.webp",
+   "variants": [
+    {
+     "label": "500 ml",
+     "price": 220000
+    },
+    {
+     "label": "1.000 ml",
+     "price": 300000
+    }
+   ],
+   "waOnly": false,
+   "quote": false,
+   "soldOut": false,
+   "order": 30
+  },
+  {
+   "id": "arcilla-roja",
+   "name": "Arcilla roja",
+   "cat": "Arcillas",
+   "desc": "Germicida natural. Ayuda a controlar la grasa y a cicatrizar las marcas del acné.",
+   "img": "img/p/arcilla-roja.webp",
+   "variants": [
+    {
+     "label": "Por kilo",
+     "price": 0
+    }
+   ],
+   "waOnly": false,
+   "quote": true,
+   "soldOut": false,
+   "order": 31
+  },
+  {
+   "id": "arcilla-negra",
+   "name": "Arcilla negra",
+   "cat": "Arcillas",
+   "desc": "Purificante. Ayuda a controlar la producción de sebo y a regenerar la piel.",
+   "img": "img/p/arcilla-negra.webp",
+   "variants": [
+    {
+     "label": "Por kilo",
+     "price": 0
+    }
+   ],
+   "waOnly": false,
+   "quote": true,
+   "soldOut": false,
+   "order": 32
+  },
+  {
+   "id": "arcilla-amarilla",
+   "name": "Arcilla amarilla",
+   "cat": "Arcillas",
+   "desc": "Para máscaras en pieles sensibles y maduras. Rica en minerales, matificante y exfoliante.",
+   "img": "img/p/arcilla-amarilla.webp",
+   "variants": [
+    {
+     "label": "Por kilo",
+     "price": 0
+    }
+   ],
+   "waOnly": false,
+   "quote": true,
+   "soldOut": false,
+   "order": 33
+  }
+ ],
+ "boats": [
+  {
+   "id": "corota",
+   "order": 1,
+   "title": "Travesía a la Isla La Corota",
+   "desc": "Cruce en lancha hasta el santuario de flora de la Isla La Corota, con tiempo para caminar su sendero de bosque altoandino.",
+   "duration": "2 h (ida, visita y regreso)",
+   "capacity": 10,
+   "price": 25000,
+   "unit": "persona",
+   "img": "img/fotos/la-corota.webp",
+   "times": [
+    "8:00",
+    "9:30",
+    "11:00",
+    "13:00",
+    "14:30"
+   ],
+   "example": true
+  },
+  {
+   "id": "panoramico",
+   "order": 2,
+   "title": "Paseo panorámico por el lago",
+   "desc": "Recorrido por la Laguna de La Cocha para ver las veredas, los humedales y las montañas que rodean el lago.",
+   "duration": "45 min",
+   "capacity": 10,
+   "price": 15000,
+   "unit": "persona",
+   "img": "img/fotos/lago-panorama.webp",
+   "times": [
+    "9:00",
+    "10:30",
+    "12:00",
+    "14:00",
+    "15:30"
+   ],
+   "example": true
+  },
+  {
+   "id": "privada",
+   "order": 3,
+   "title": "Lancha privada",
+   "desc": "La lancha solo para tu grupo, con la ruta que prefieran. Ideal para familias y grupos de Aqua Yoga.",
+   "duration": "1 hora",
+   "capacity": 8,
+   "price": 120000,
+   "unit": "lancha",
+   "img": "img/fotos/guamuez-aerea.webp",
+   "times": [
+    "8:00",
+    "10:00",
+    "12:00",
+    "14:00"
+   ],
+   "example": true
+  }
+ ]
+}
